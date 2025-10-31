@@ -32,7 +32,7 @@ The goal of this phase was to build a robust and reliable DWH following a multi-
 ### 1. DWH Schema
 The warehouse is built on a Star Schema, which is optimized for analytical queries. It consists of one central Fact table and four Dimension tables.
 
-![Project Entity Relationship Diagram (ERD)](ERD.jpeg)
+![Project Entity Relationship Diagram (ERD)](Milestone_1/ERD.jpeg)
 
 ### 2. ETL Layers (T-SQL Pipeline)
 The entire Extract, Transform, and Load (ETL) process is orchestrated using T-SQL scripts, moving data through three distinct logical layers within SQL Server:
