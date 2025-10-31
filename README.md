@@ -9,6 +9,21 @@ This project is an end-to-end solution for analyzing and predicting customer chu
 * **Data Analysis & Modeling:** Python (Pandas, Scikit-learn, Pyodbc)
 * **Interactive Application:** Streamlit
 
+## 🎯 Target Audience & Stakeholders
+This project is designed to deliver value across different levels of the organization:
+
+* **Strategic Level (C-Suite, Product Team):**
+    * **Interest:** High-level KPIs (Overall Churn Rate, Revenue Impact) and the *root causes* of churn.
+    * **Use Case:** Use the **Streamlit Dashboard** for KPI monitoring and the **ML Model's insights** (e.g., feature importance) to understand why customers leave and make strategic product or pricing decisions.
+
+* **Operational Level (Marketing & Retention Teams):**
+    * **Interest:** Identifying *which* customers are at high risk of churning, *before* they leave.
+    * **Use Case:** Use the **Streamlit App's** live prediction and high-risk customer lists to proactively target at-risk segments with retention campaigns and special offers.
+
+* **Technical Level (Data Science & Data Engineering Teams):**
+    * **Interest:** A clean, reliable, and centralized data source.
+    * **Use Case:** Use the **Data Warehouse (Phase 1)** as the "Single Source of Truth" for all future analyses and models. The **T-SQL pipeline (ETL)** will be maintained to ensure data freshness and reliability.
+
 ---
 
 ## 🏛️ Phase 1: Data Engineering
