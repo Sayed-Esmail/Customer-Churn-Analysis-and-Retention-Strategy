@@ -1,0 +1,4 @@
+2025-11-14 17:03:12,154 - INFO - App started
+2025-11-14 17:03:12,159 - ERROR - Model load error: [Errno 2] No such file or directory: '../Models/churn_prediction_model.pkl'
+2025-11-14 17:03:12,159 - WARNING - No scaler loaded: [Errno 2] No such file or directory: '../Models/scaler.pkl'
+2025-11-14 17:03:12,159 - WARNING - Feature columns not loaded: [Errno 2] No such file or directory: '../Models/feature_columns.pkl'

@@ -1,0 +1,9 @@
+PaymentMethod_ID,Payment_Method,Paperless_Billing,Auto_Payment
+PM001,electronic check,yes,No
+PM002,electronic check,no,No
+PM003,mailed check,no,No
+PM004,mailed check,yes,No
+PM005,bank transfer (automatic),no,Yes
+PM006,bank transfer (automatic),yes,Yes
+PM007,credit card (automatic),yes,Yes
+PM008,credit card (automatic),no,Yes

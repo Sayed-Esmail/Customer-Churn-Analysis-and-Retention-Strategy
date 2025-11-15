@@ -1,0 +1,323 @@
+Plan_ID,Internet_Service_Type,Phone_Service,Multiple_Lines,Tech_Support,Online_Security,Online_Backup,Device_Protection,Streaming_TV,Streaming_Movies,Plan_Price_Tier
+P001,dsl,no,no phone service,no,no,yes,no,no,no,Standard
+P002,dsl,yes,no,no,yes,no,yes,no,no,Standard
+P003,dsl,yes,no,no,yes,yes,no,no,no,Standard
+P004,dsl,no,no phone service,yes,yes,no,yes,no,no,Standard
+P005,fiber optic,yes,no,no,no,no,no,no,no,Premium
+P006,fiber optic,yes,yes,no,no,no,yes,yes,yes,Premium
+P007,fiber optic,yes,yes,no,no,yes,no,yes,no,Premium
+P008,dsl,no,no phone service,no,yes,no,no,no,no,Standard
+P009,fiber optic,yes,yes,yes,no,no,yes,yes,yes,Premium
+P010,dsl,yes,no,no,yes,no,no,no,no,Standard
+P011,no,yes,no,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Low
+P012,fiber optic,yes,yes,no,no,yes,yes,yes,yes,Premium
+P013,fiber optic,yes,no,yes,yes,no,yes,yes,yes,Premium
+P014,fiber optic,yes,yes,yes,yes,yes,yes,yes,yes,Premium
+P015,fiber optic,yes,yes,no,yes,no,yes,yes,yes,Premium
+P016,dsl,yes,no,yes,no,no,yes,no,no,Standard
+P017,fiber optic,yes,no,no,no,yes,yes,no,yes,Premium
+P018,dsl,no,no phone service,no,no,no,yes,no,yes,Standard
+P019,dsl,yes,yes,yes,no,yes,no,no,no,Standard
+P020,dsl,yes,no,yes,yes,yes,no,no,no,Standard
+P021,fiber optic,yes,yes,no,no,yes,no,yes,yes,Premium
+P022,dsl,yes,yes,yes,yes,yes,yes,yes,yes,Standard
+P023,dsl,yes,no,no,no,no,no,yes,yes,Standard
+P024,fiber optic,yes,yes,yes,yes,yes,yes,no,no,Premium
+P025,fiber optic,yes,no,no,no,no,yes,yes,yes,Premium
+P026,dsl,yes,no,yes,yes,yes,yes,no,no,Standard
+P027,dsl,yes,no,no,no,no,no,no,no,Standard
+P028,fiber optic,yes,yes,yes,yes,yes,no,yes,no,Premium
+P029,fiber optic,yes,no,no,no,no,yes,no,no,Premium
+P030,dsl,yes,no,no,no,yes,no,no,no,Standard
+P031,dsl,yes,yes,no,yes,yes,no,yes,no,Standard
+P032,dsl,yes,yes,yes,yes,yes,yes,yes,no,Standard
+P033,dsl,yes,yes,yes,yes,yes,no,yes,no,Standard
+P034,fiber optic,yes,yes,no,no,no,no,no,yes,Premium
+P035,fiber optic,yes,no,no,no,no,no,yes,no,Premium
+P036,dsl,yes,yes,yes,yes,no,no,yes,yes,Standard
+P037,dsl,yes,yes,yes,yes,no,yes,no,no,Standard
+P038,fiber optic,yes,no,no,yes,yes,no,yes,yes,Premium
+P039,dsl,yes,yes,yes,yes,no,no,yes,no,Standard
+P040,fiber optic,yes,yes,no,no,yes,no,no,no,Premium
+P041,dsl,yes,no,yes,yes,yes,yes,no,yes,Standard
+P042,fiber optic,yes,yes,no,no,no,no,yes,yes,Premium
+P043,fiber optic,yes,yes,no,yes,no,no,yes,yes,Premium
+P044,fiber optic,yes,yes,yes,no,yes,yes,yes,yes,Premium
+P045,no,yes,yes,no internet service,no internet service,no internet service,no internet service,no internet service,no internet service,Low
+P046,dsl,no,no phone service,no,yes,yes,yes,no,no,Standard
+P047,dsl,yes,no,yes,no,yes,no,yes,yes,Standard
+P048,dsl,yes,no,yes,no,yes,yes,yes,yes,Standard
+P049,fiber optic,yes,no,no,yes,no,yes,no,no,Premium
+P050,dsl,yes,no,yes,no,no,no,no,no,Standard
+P051,fiber optic,yes,yes,yes,yes,no,yes,yes,yes,Premium
+P052,dsl,yes,no,yes,yes,no,no,no,yes,Standard
+P053,fiber optic,yes,yes,no,yes,yes,yes,yes,yes,Premium
+P054,dsl,yes,no,no,no,no,no,no,yes,Standard
+P055,dsl,yes,no,no,yes,yes,no,yes,yes,Standard
+P056,dsl,no,no phone service,no,yes,no,no,yes,yes,Standard
+P057,fiber optic,yes,no,yes,no,yes,yes,yes,yes,Premium
+P058,dsl,yes,no,no,yes,no,no,yes,no,Standard
+P059,dsl,no,no phone service,no,no,no,no,yes,no,Standard
+P060,fiber optic,yes,no,no,no,yes,yes,no,no,Premium
+P061,fiber optic,yes,no,yes,no,no,no,no,no,Premium
+P062,dsl,yes,yes,yes,yes,no,yes,yes,yes,Standard
+P063,fiber optic,yes,yes,no,yes,no,no,no,no,Premium
+P064,dsl,yes,yes,yes,yes,yes,no,no,no,Standard
+P065,fiber optic,yes,no,no,no,yes,yes,yes,yes,Premium
+P066,fiber optic,yes,yes,yes,no,no,yes,yes,no,Premium
+P067,dsl,no,no phone service,no,no,yes,yes,yes,no,Standard
+P068,dsl,no,no phone service,no,no,no,no,no,no,Standard
+P069,fiber optic,yes,yes,no,yes,yes,no,yes,yes,Premium
+P070,fiber optic,yes,yes,no,yes,yes,no,yes,no,Premium
+P071,dsl,yes,no,yes,yes,no,yes,no,no,Standard
+P072,fiber optic,yes,no,no,no,yes,yes,yes,no,Premium
+P073,fiber optic,yes,yes,no,no,no,no,no,no,Premium
+P074,dsl,no,no phone service,yes,no,yes,no,yes,yes,Standard
+P075,fiber optic,yes,no,no,yes,yes,no,yes,no,Premium
+P076,fiber optic,yes,yes,yes,no,yes,no,no,no,Premium
+P077,fiber optic,yes,no,yes,yes,no,no,yes,no,Premium
+P078,fiber optic,yes,yes,no,no,no,yes,no,no,Premium
+P079,dsl,no,no phone service,no,yes,yes,no,yes,yes,Standard
+P080,dsl,no,no phone service,no,yes,yes,yes,yes,yes,Standard
+P081,dsl,no,no phone service,no,no,no,no,no,yes,Standard
+P082,fiber optic,yes,no,no,yes,no,no,no,no,Premium
+P083,dsl,yes,yes,yes,yes,no,no,no,yes,Standard
+P084,fiber optic,yes,yes,no,yes,yes,no,no,no,Premium
+P085,dsl,yes,no,no,no,yes,yes,yes,no,Standard
+P086,dsl,yes,no,yes,no,yes,yes,no,yes,Standard
+P087,dsl,yes,no,yes,no,no,no,yes,yes,Standard
+P088,dsl,yes,no,yes,yes,yes,yes,yes,yes,Standard
+P089,fiber optic,yes,no,no,no,no,no,no,yes,Premium
+P090,fiber optic,yes,yes,no,no,no,no,yes,no,Premium
+P091,dsl,yes,no,no,yes,no,yes,yes,no,Standard
+P092,dsl,yes,yes,yes,no,yes,yes,no,yes,Standard
+P093,dsl,no,no phone service,no,no,yes,yes,no,yes,Standard
+P094,fiber optic,yes,no,yes,yes,no,yes,no,no,Premium
+P095,dsl,yes,no,no,yes,no,yes,yes,yes,Standard
+P096,dsl,no,no phone service,yes,no,no,no,no,no,Standard
+P097,dsl,yes,yes,no,no,yes,no,no,no,Standard
+P098,fiber optic,yes,no,yes,yes,yes,no,yes,no,Premium
+P099,fiber optic,yes,no,yes,yes,no,no,yes,yes,Premium
+P100,fiber optic,yes,no,yes,no,yes,no,no,no,Premium
+P101,dsl,no,no phone service,yes,yes,yes,yes,no,yes,Standard
+P102,dsl,no,no phone service,yes,yes,yes,yes,no,no,Standard
+P103,dsl,no,no phone service,yes,yes,yes,yes,yes,no,Standard
+P104,dsl,yes,yes,yes,no,yes,yes,yes,yes,Standard
+P105,dsl,yes,no,yes,yes,no,yes,yes,yes,Standard
+P106,dsl,yes,no,no,no,no,no,yes,no,Standard
+P107,fiber optic,yes,yes,yes,no,no,no,no,yes,Premium
+P108,dsl,yes,yes,yes,yes,yes,no,yes,yes,Standard
+P109,fiber optic,yes,yes,yes,yes,yes,no,yes,yes,Premium
+P110,fiber optic,yes,no,yes,yes,yes,no,no,yes,Premium
+P111,fiber optic,yes,no,no,yes,no,no,no,yes,Premium
+P112,fiber optic,yes,no,no,no,yes,no,yes,yes,Premium
+P113,dsl,yes,no,yes,yes,no,no,yes,yes,Standard
+P114,fiber optic,yes,no,no,yes,yes,yes,no,yes,Premium
+P115,dsl,yes,no,no,no,yes,yes,no,no,Standard
+P116,dsl,yes,yes,no,no,no,yes,no,yes,Standard
+P117,fiber optic,yes,no,no,no,yes,no,no,no,Premium
+P118,fiber optic,yes,yes,no,yes,yes,yes,no,yes,Premium
+P119,fiber optic,yes,no,no,yes,yes,yes,yes,no,Premium
+P120,dsl,no,no phone service,no,no,yes,no,yes,no,Standard
+P121,dsl,no,no phone service,yes,no,yes,yes,yes,yes,Standard
+P122,dsl,no,no phone service,no,yes,no,yes,no,yes,Standard
+P123,fiber optic,yes,yes,no,no,yes,no,no,yes,Premium
+P124,dsl,no,no phone service,yes,yes,yes,no,no,yes,Standard
+P125,fiber optic,yes,no,yes,yes,yes,no,yes,yes,Premium
+P126,fiber optic,yes,no,yes,no,no,no,yes,yes,Premium
+P127,fiber optic,yes,yes,yes,no,yes,no,yes,yes,Premium
+P128,dsl,yes,no,no,yes,yes,no,no,yes,Standard
+P129,dsl,no,no phone service,yes,no,no,yes,yes,yes,Standard
+P130,dsl,yes,yes,no,yes,no,no,no,no,Standard
+P131,dsl,yes,no,no,yes,yes,yes,no,no,Standard
+P132,fiber optic,yes,no,yes,no,yes,yes,no,no,Premium
+P133,fiber optic,yes,no,no,no,no,no,yes,yes,Premium
+P134,dsl,yes,yes,no,no,no,yes,yes,yes,Standard
+P135,fiber optic,yes,no,yes,no,no,yes,no,yes,Premium
+P136,dsl,yes,no,yes,no,no,yes,yes,yes,Standard
+P137,dsl,yes,yes,no,yes,no,yes,yes,yes,Standard
+P138,fiber optic,yes,no,yes,yes,no,no,no,yes,Premium
+P139,dsl,yes,no,yes,yes,yes,no,yes,yes,Standard
+P140,fiber optic,yes,yes,yes,no,no,no,yes,no,Premium
+P141,dsl,no,no phone service,yes,yes,yes,no,yes,yes,Standard
+P142,fiber optic,yes,no,yes,no,no,no,yes,no,Premium
+P143,fiber optic,yes,yes,no,no,yes,yes,yes,no,Premium
+P144,dsl,yes,no,yes,no,yes,no,no,no,Standard
+P145,dsl,yes,yes,no,yes,yes,yes,no,no,Standard
+P146,dsl,no,no phone service,no,no,no,no,yes,yes,Standard
+P147,fiber optic,yes,yes,no,no,yes,yes,no,no,Premium
+P148,dsl,no,no phone service,no,yes,no,no,yes,no,Standard
+P149,fiber optic,yes,no,yes,no,yes,no,yes,yes,Premium
+P150,dsl,yes,no,no,no,no,yes,no,no,Standard
+P151,dsl,yes,no,no,yes,no,no,no,yes,Standard
+P152,dsl,no,no phone service,yes,yes,no,no,no,no,Standard
+P153,fiber optic,yes,yes,yes,no,yes,yes,no,yes,Premium
+P154,fiber optic,yes,yes,yes,no,no,yes,no,no,Premium
+P155,dsl,no,no phone service,yes,yes,yes,yes,yes,yes,Standard
+P156,fiber optic,yes,yes,no,no,no,yes,no,yes,Premium
+P157,dsl,yes,no,yes,yes,no,no,no,no,Standard
+P158,fiber optic,yes,yes,no,yes,no,yes,yes,no,Premium
+P159,fiber optic,yes,yes,yes,no,yes,yes,no,no,Premium
+P160,fiber optic,yes,no,no,no,yes,no,no,yes,Premium
+P161,dsl,yes,yes,no,no,no,no,no,no,Standard
+P162,dsl,yes,yes,yes,yes,no,no,no,no,Standard
+P163,dsl,no,no phone service,yes,no,no,yes,yes,no,Standard
+P164,dsl,yes,yes,no,yes,no,no,no,yes,Standard
+P165,dsl,yes,no,yes,yes,no,yes,no,yes,Standard
+P166,fiber optic,yes,no,yes,no,yes,yes,yes,no,Premium
+P167,dsl,yes,no,no,no,yes,no,yes,yes,Standard
+P168,dsl,no,no phone service,yes,no,no,no,no,yes,Standard
+P169,dsl,yes,no,no,no,no,yes,yes,yes,Standard
+P170,dsl,yes,no,yes,yes,yes,yes,yes,no,Standard
+P171,fiber optic,yes,no,no,no,yes,no,yes,no,Premium
+P172,dsl,yes,no,no,no,yes,no,yes,no,Standard
+P173,dsl,yes,yes,no,no,yes,no,no,yes,Standard
+P174,dsl,yes,yes,yes,no,yes,yes,yes,no,Standard
+P175,dsl,yes,yes,yes,no,yes,no,no,yes,Standard
+P176,dsl,no,no phone service,no,yes,yes,no,yes,no,Standard
+P177,fiber optic,yes,yes,no,yes,yes,yes,yes,no,Premium
+P178,fiber optic,yes,no,yes,no,no,yes,no,no,Premium
+P179,dsl,no,no phone service,no,no,yes,no,yes,yes,Standard
+P180,fiber optic,yes,no,yes,no,no,no,no,yes,Premium
+P181,fiber optic,yes,yes,yes,no,yes,no,yes,no,Premium
+P182,fiber optic,yes,no,yes,yes,yes,yes,yes,yes,Premium
+P183,fiber optic,yes,yes,no,no,no,yes,yes,no,Premium
+P184,dsl,yes,no,yes,no,no,no,no,yes,Standard
+P185,dsl,yes,yes,yes,yes,no,yes,no,yes,Standard
+P186,fiber optic,yes,yes,yes,no,no,yes,no,yes,Premium
+P187,fiber optic,yes,yes,yes,yes,no,yes,no,yes,Premium
+P188,fiber optic,yes,no,yes,no,no,yes,yes,yes,Premium
+P189,dsl,yes,yes,yes,no,no,no,no,no,Standard
+P190,dsl,no,no phone service,yes,no,yes,no,yes,no,Standard
+P191,fiber optic,yes,yes,yes,no,no,no,no,no,Premium
+P192,fiber optic,yes,no,no,no,no,yes,no,yes,Premium
+P193,fiber optic,yes,yes,no,no,yes,yes,no,yes,Premium
+P194,dsl,yes,no,yes,yes,yes,no,yes,no,Standard
+P195,dsl,yes,yes,yes,no,no,no,yes,no,Standard
+P196,fiber optic,yes,no,no,yes,no,no,yes,no,Premium
+P197,dsl,no,no phone service,yes,no,no,no,yes,yes,Standard
+P198,dsl,yes,yes,no,yes,no,no,yes,yes,Standard
+P199,dsl,no,no phone service,no,yes,yes,no,no,no,Standard
+P200,fiber optic,yes,yes,yes,no,no,no,yes,yes,Premium
+P201,dsl,yes,yes,no,yes,yes,no,no,no,Standard
+P202,fiber optic,yes,yes,yes,yes,yes,yes,no,yes,Premium
+P203,fiber optic,yes,yes,no,yes,no,no,no,yes,Premium
+P204,dsl,yes,no,yes,no,no,yes,no,yes,Standard
+P205,fiber optic,yes,no,no,yes,no,yes,yes,yes,Premium
+P206,dsl,yes,yes,no,no,yes,yes,yes,yes,Standard
+P207,dsl,no,no phone service,no,no,yes,yes,yes,yes,Standard
+P208,fiber optic,yes,no,no,yes,yes,no,no,no,Premium
+P209,fiber optic,yes,yes,no,yes,yes,no,no,yes,Premium
+P210,dsl,no,no phone service,yes,no,yes,yes,no,no,Standard
+P211,dsl,yes,no,yes,no,yes,yes,yes,no,Standard
+P212,dsl,yes,yes,yes,yes,yes,yes,no,yes,Standard
+P213,dsl,yes,yes,yes,no,no,yes,no,no,Standard
+P214,dsl,no,no phone service,no,yes,yes,yes,no,yes,Standard
+P215,fiber optic,yes,no,no,yes,yes,yes,no,no,Premium
+P216,dsl,no,no phone service,no,yes,no,no,no,yes,Standard
+P217,dsl,yes,yes,no,no,yes,yes,no,no,Standard
+P218,dsl,yes,no,yes,no,yes,yes,no,no,Standard
+P219,dsl,yes,yes,no,no,no,yes,no,no,Standard
+P220,fiber optic,yes,no,no,yes,no,no,yes,yes,Premium
+P221,fiber optic,yes,yes,no,yes,no,no,yes,no,Premium
+P222,dsl,yes,no,yes,no,yes,no,yes,no,Standard
+P223,dsl,no,no phone service,yes,yes,yes,no,no,no,Standard
+P224,dsl,yes,no,yes,yes,yes,no,no,yes,Standard
+P225,dsl,no,no phone service,no,no,no,yes,yes,yes,Standard
+P226,fiber optic,yes,no,yes,no,yes,yes,no,yes,Premium
+P227,dsl,yes,no,no,no,yes,no,no,yes,Standard
+P228,dsl,yes,yes,no,no,no,no,no,yes,Standard
+P229,fiber optic,yes,no,no,yes,yes,yes,yes,yes,Premium
+P230,dsl,yes,yes,no,no,no,no,yes,no,Standard
+P231,dsl,yes,yes,yes,no,no,yes,no,yes,Standard
+P232,dsl,no,no phone service,no,no,no,yes,no,no,Standard
+P233,fiber optic,yes,no,yes,no,yes,no,yes,no,Premium
+P234,dsl,yes,yes,no,no,no,yes,yes,no,Standard
+P235,dsl,yes,yes,no,no,yes,yes,yes,no,Standard
+P236,fiber optic,yes,no,yes,yes,yes,no,no,no,Premium
+P237,fiber optic,yes,no,no,yes,no,yes,yes,no,Premium
+P238,dsl,yes,no,no,no,yes,yes,yes,yes,Standard
+P239,dsl,no,no phone service,yes,no,yes,no,no,no,Standard
+P240,dsl,yes,yes,yes,yes,yes,no,no,yes,Standard
+P241,fiber optic,yes,yes,yes,yes,no,no,yes,yes,Premium
+P242,dsl,no,no phone service,yes,no,no,yes,no,no,Standard
+P243,dsl,yes,yes,yes,yes,no,yes,yes,no,Standard
+P244,dsl,no,no phone service,no,yes,no,yes,yes,yes,Standard
+P245,fiber optic,yes,no,no,no,no,yes,yes,no,Premium
+P246,fiber optic,yes,yes,yes,no,yes,no,no,yes,Premium
+P247,fiber optic,yes,yes,yes,yes,yes,no,no,no,Premium
+P248,fiber optic,yes,yes,yes,yes,yes,yes,yes,no,Premium
+P249,dsl,yes,no,no,no,no,yes,no,yes,Standard
+P250,dsl,no,no phone service,yes,yes,no,yes,yes,yes,Standard
+P251,dsl,yes,yes,no,no,yes,yes,no,yes,Standard
+P252,dsl,yes,yes,no,yes,no,no,yes,no,Standard
+P253,dsl,yes,no,no,yes,no,yes,no,yes,Standard
+P254,dsl,no,no phone service,yes,yes,no,no,no,yes,Standard
+P255,dsl,yes,no,yes,yes,no,yes,yes,no,Standard
+P256,fiber optic,yes,yes,no,yes,yes,yes,no,no,Premium
+P257,dsl,no,no phone service,no,no,yes,yes,no,no,Standard
+P258,dsl,yes,no,yes,no,yes,no,no,yes,Standard
+P259,dsl,yes,yes,yes,no,no,yes,yes,yes,Standard
+P260,dsl,no,no phone service,yes,yes,no,no,yes,no,Standard
+P261,dsl,yes,yes,no,yes,yes,yes,yes,yes,Standard
+P262,dsl,yes,yes,no,yes,yes,yes,no,yes,Standard
+P263,dsl,yes,yes,no,yes,yes,no,no,yes,Standard
+P264,fiber optic,yes,yes,yes,yes,no,no,no,yes,Premium
+P265,dsl,no,no phone service,no,yes,no,yes,no,no,Standard
+P266,fiber optic,yes,yes,no,yes,no,yes,no,no,Premium
+P267,dsl,yes,no,yes,no,no,no,yes,no,Standard
+P268,dsl,no,no phone service,yes,yes,yes,no,yes,no,Standard
+P269,dsl,yes,yes,yes,no,no,no,yes,yes,Standard
+P270,dsl,yes,yes,no,no,no,no,yes,yes,Standard
+P271,fiber optic,yes,yes,no,yes,no,yes,no,yes,Premium
+P272,fiber optic,yes,yes,yes,no,yes,yes,yes,no,Premium
+P273,dsl,yes,no,yes,no,no,yes,yes,no,Standard
+P274,dsl,no,no phone service,no,no,no,yes,yes,no,Standard
+P275,dsl,no,no phone service,yes,no,no,no,yes,no,Standard
+P276,dsl,yes,no,no,no,no,yes,yes,no,Standard
+P277,dsl,yes,yes,yes,yes,yes,yes,no,no,Standard
+P278,dsl,no,no phone service,no,no,yes,no,no,yes,Standard
+P279,dsl,yes,yes,no,no,yes,no,yes,yes,Standard
+P280,dsl,no,no phone service,yes,no,yes,yes,no,yes,Standard
+P281,fiber optic,yes,no,yes,yes,yes,yes,no,no,Premium
+P282,fiber optic,yes,no,yes,yes,no,yes,yes,no,Premium
+P283,fiber optic,yes,no,yes,yes,no,yes,no,yes,Premium
+P284,dsl,yes,no,no,yes,yes,yes,no,yes,Standard
+P285,fiber optic,yes,yes,yes,yes,no,yes,no,no,Premium
+P286,dsl,yes,yes,yes,no,yes,no,yes,no,Standard
+P287,fiber optic,yes,yes,yes,yes,no,no,no,no,Premium
+P288,dsl,no,no phone service,yes,no,yes,no,no,yes,Standard
+P289,fiber optic,yes,no,yes,yes,no,no,no,no,Premium
+P290,fiber optic,yes,yes,yes,yes,no,yes,yes,no,Premium
+P291,dsl,yes,yes,no,yes,no,yes,no,yes,Standard
+P292,dsl,no,no phone service,yes,no,no,yes,no,yes,Standard
+P293,fiber optic,yes,no,no,yes,yes,no,no,yes,Premium
+P294,fiber optic,yes,no,no,yes,no,yes,no,yes,Premium
+P295,dsl,yes,yes,yes,no,yes,no,yes,yes,Standard
+P296,dsl,yes,no,no,yes,yes,no,yes,no,Standard
+P297,dsl,no,no phone service,yes,yes,no,no,yes,yes,Standard
+P298,dsl,no,no phone service,yes,yes,no,yes,no,yes,Standard
+P299,dsl,no,no phone service,yes,no,yes,yes,yes,no,Standard
+P300,dsl,no,no phone service,no,yes,no,yes,yes,no,Standard
+P301,dsl,yes,yes,yes,no,no,yes,yes,no,Standard
+P302,dsl,no,no phone service,yes,yes,no,yes,yes,no,Standard
+P303,fiber optic,yes,no,yes,no,yes,no,no,yes,Premium
+P304,dsl,yes,no,no,yes,yes,yes,yes,yes,Standard
+P305,fiber optic,yes,no,yes,no,no,yes,yes,no,Premium
+P306,dsl,yes,no,no,yes,yes,yes,yes,no,Standard
+P307,dsl,yes,no,no,yes,no,no,yes,yes,Standard
+P308,dsl,yes,yes,yes,no,no,no,no,yes,Standard
+P309,dsl,yes,no,yes,yes,no,no,yes,no,Standard
+P310,fiber optic,yes,no,yes,yes,yes,yes,no,yes,Premium
+P311,dsl,yes,yes,no,yes,yes,no,yes,yes,Standard
+P312,fiber optic,yes,no,yes,yes,yes,yes,yes,no,Premium
+P313,dsl,yes,yes,no,no,yes,no,yes,no,Standard
+P314,dsl,yes,yes,no,yes,no,yes,yes,no,Standard
+P315,fiber optic,yes,yes,yes,yes,no,no,yes,no,Premium
+P316,dsl,no,no phone service,no,yes,yes,no,no,yes,Standard
+P317,dsl,yes,yes,yes,no,yes,yes,no,no,Standard
+P318,dsl,yes,yes,no,yes,yes,yes,yes,no,Standard
+P319,fiber optic,yes,yes,yes,yes,yes,no,no,yes,Premium
+P320,dsl,yes,no,no,no,yes,yes,no,yes,Standard
+P321,dsl,yes,yes,no,yes,no,yes,no,no,Standard
+P322,dsl,no,no phone service,no,yes,yes,yes,yes,no,Standard
