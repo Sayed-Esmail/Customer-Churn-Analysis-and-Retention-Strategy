@@ -1,4 +1,4 @@
--- PHASE 2: CLEANSING LAYER (DDL)
+-- PHASE 2: Tranformation LAYER 
 -----------------------------------------------------------------------
 -- Create the Cleansed Schema
 CREATE SCHEMA Cleansed;
@@ -64,19 +64,19 @@ CREATE TABLE Cleansed.Customer_Activity (
     Customer_Satisfaction_Score DECIMAL(10, 2)
 );
 
--- PHASE 2: CLEANSING LAYER (Transformation Logic Applied)
+-- Transformation Logic Applied
 -----------------------------------------------------------------------
 
 -- Load Cleansed.Date
 INSERT INTO Cleansed.[Date] (Date_ID, Full_Date, [Year], [Quarter], [Month], Month_Name, [Weekday])
 SELECT
-    CAST(CONVERT(VARCHAR(50), Date_ID_Raw) AS INT), 
-    CONVERT(DATE, CONVERT(VARCHAR(50), Full_Date_Raw), 103), 
-    CAST(CONVERT(VARCHAR(50), Year_Raw) AS SMALLINT), 
-    Quarter_Raw,
-    CAST(CONVERT(VARCHAR(50), Month_Raw) AS TINYINT), 
-    Month_Name_Raw,
-    Weekday_Raw
+Â  Â  CAST(CONVERT(VARCHAR(50), Date_ID_Raw) AS INT), 
+Â  Â  CONVERT(DATE, CONVERT(VARCHAR(50), Full_Date_Raw), 103), 
+Â  Â  CAST(CONVERT(VARCHAR(50), Year_Raw) AS SMALLINT), 
+Â  Â  Quarter_Raw,
+Â  Â  CAST(CONVERT(VARCHAR(50), Month_Raw) AS TINYINT), 
+Â  Â  Month_Name_Raw,
+Â  Â  Weekday_Raw
 FROM Staging.Stage_Date_Raw;
 
 -- Load Cleansed.PaymentMethod 
@@ -91,31 +91,31 @@ FROM Staging.Stage_PaymentMethod;
 -- Load Cleansed.Customer 
 INSERT INTO Cleansed.Customer (Customer_ID, Customer_Name, Gender, Senior_Citizen, Partner, Dependents, Contract_Type, Churn_Flag)
 SELECT
-    Customer_ID,
-    Customer_Name,
-    Gender,
-    CAST(CONVERT(VARCHAR(50), Senior_Citizen_Flag) AS BIT), 
-    CASE WHEN CONVERT(VARCHAR(50), Partner) = 'Yes' THEN 1 ELSE 0 END AS Partner,
-    CASE WHEN CONVERT(VARCHAR(50), Dependents) = 'Yes' THEN 1 ELSE 0 END AS Dependents,
-    Contract_Type,
-    CASE WHEN CONVERT(VARCHAR(50), Churn_Flag_Raw) = 'Yes' THEN 1 ELSE 0 END AS Churn_Flag
+Â  Â  Customer_ID,
+Â  Â  Customer_Name,
+Â  Â  Gender,
+Â  Â  CAST(CONVERT(VARCHAR(50), Senior_Citizen_Flag) AS BIT), 
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Partner) = 'Yes' THEN 1 ELSE 0 END AS Partner,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Dependents) = 'Yes' THEN 1 ELSE 0 END AS Dependents,
+Â  Â  Contract_Type,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Churn_Flag_Raw) = 'Yes' THEN 1 ELSE 0 END AS Churn_Flag
 FROM Staging.Stage_Customer_Data;
 
 
 -- Load Cleansed.Plan_Details 
 INSERT INTO Cleansed.Plan_Details (Plan_ID, Internet_Service_Type, Phone_Service, Multiple_Lines, Tech_Support, Online_Security, Online_Backup, Device_Protection, Streaming_TV, Streaming_Movies, Plan_Price_Tier)
 SELECT
-    Plan_ID,
-    Internet_Service_Type,
-    Phone_Service,
-    CASE WHEN CONVERT(VARCHAR(50), Multiple_Lines) = 'yes' THEN 1 ELSE 0 END AS Multiple_Lines,
-    CASE WHEN CONVERT(VARCHAR(50), Tech_Support) = 'yes' THEN 1 ELSE 0 END AS Tech_Support,
-    CASE WHEN CONVERT(VARCHAR(50), Online_Security) = 'yes' THEN 1 ELSE 0 END AS Online_Security,
-    CASE WHEN CONVERT(VARCHAR(50), Online_Backup) = 'yes' THEN 1 ELSE 0 END AS Online_Backup,
-    CASE WHEN CONVERT(VARCHAR(50), Device_Protection) = 'yes' THEN 1 ELSE 0 END AS Device_Protection,
-    CASE WHEN CONVERT(VARCHAR(50), Streaming_TV) = 'yes' THEN 1 ELSE 0 END AS Streaming_TV,
-    CASE WHEN CONVERT(VARCHAR(50), Streaming_Movies) = 'yes' THEN 1 ELSE 0 END AS Streaming_Movies,
-    Plan_Price_Tier
+Â  Â  Plan_ID,
+Â  Â  Internet_Service_Type,
+Â  Â  Phone_Service,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Multiple_Lines) = 'yes' THEN 1 ELSE 0 END AS Multiple_Lines,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Tech_Support) = 'yes' THEN 1 ELSE 0 END AS Tech_Support,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Online_Security) = 'yes' THEN 1 ELSE 0 END AS Online_Security,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Online_Backup) = 'yes' THEN 1 ELSE 0 END AS Online_Backup,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Device_Protection) = 'yes' THEN 1 ELSE 0 END AS Device_Protection,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Streaming_TV) = 'yes' THEN 1 ELSE 0 END AS Streaming_TV,
+Â  Â  CASE WHEN CONVERT(VARCHAR(50), Streaming_Movies) = 'yes' THEN 1 ELSE 0 END AS Streaming_Movies,
+Â  Â  Plan_Price_Tier
 FROM Staging.Stage_Plan_Details;
 
 
