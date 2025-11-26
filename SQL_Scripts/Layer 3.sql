@@ -1,7 +1,7 @@
--- PHASE 3: DWH DIMENSIONAL MODEL (DDL)
+-- PHASE 3: DWH DIMENSIONAL MODEL 
 -----------------------------------------------------------------------
 
--- 1. Create the DWH Schema (assuming the previous safe cleanup script was run)
+-- 1. Create the DWH Schema
 CREATE SCHEMA DWH;
 
 
@@ -73,9 +73,8 @@ CREATE TABLE DWH.FactCustomerActivity (
 );
 
 
--- PHASE 4: DWH DIMENSIONAL MODEL (Simple Load from Cleansed)
+-- PHASE 4: DWH DIMENSIONAL MODEL (Simple Load from Tranformation schema)
 -----------------------------------------------------------------------
-
 -- A. Load DWH.DimDate
 INSERT INTO DWH.DimDate 
 SELECT Date_ID, Full_Date, [Year], [Quarter], [Month], Month_Name, [Weekday] 
