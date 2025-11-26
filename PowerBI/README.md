@@ -17,10 +17,3 @@ The dashboard provides interactive visual insights to help understand churn patt
 ## ▶️ How to Use
 1. Download the `.pbix` file.  
 2. Open it in **Power BI Desktop**.  
-3. Refresh the dataset if prompted.
-
----
-
-## 📘 Notes
-If you update the dashboard, upload the latest `.pbix` version here to keep the repository up to date.
-
