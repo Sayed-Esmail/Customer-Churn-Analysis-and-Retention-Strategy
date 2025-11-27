@@ -22,17 +22,24 @@ This project was completed end-to-end, covering **data exploration, modeling, de
 - Preprocessed the data:
   - Encoded categorical variables (`gender`, `plan type`, `payment method`)
   - Scaled numeric features
-  - Cleaned missing values
+  - Cleaned duplicates values
+- The `SQL_Scripts` for building the Data Warehouse and ETL pipeline:
+  - **Staging Layer:** Create staging tables and load raw CSVs.  
+  - **Transformation Layer:** Clean and transform data into the Cleansed schema.  
+  - **Data Warehouse (DWH):** Create dimension and fact tables and load from Cleansed tables.  
+- Created **Power BI dashboard** for visualizing customer patterns and high-risk segments.
 
 **Files:**
 - `Notebooks/EDA_Analysis.ipynb`
-- `Data/Processed/churn_ml_dataset.csv`
+- `Data/Raw`
+- `SQL_Scripts`
+- `PowerBI/Customer churn.pbix`
 - `Reports/feature_distributions.png`, `Reports/correlation_heatmap.png`
 
 ---
 
 ### **2. Predictive Model Development**
-- Developed and trained multiple classification models (Random Forest, Logistic Regression, XGBoost).
+- Developed and trained classification models.
 - Split data into train/test sets and evaluated performance:
   - Metrics: Accuracy, Precision, Recall, F1-score, ROC-AUC
 - Tuned hyperparameters and interpreted feature importance to understand churn drivers.
@@ -49,15 +56,12 @@ This project was completed end-to-end, covering **data exploration, modeling, de
 ### **3. Deployment and Retention Strategy**
 - Built a **Streamlit app** for predicting customer churn in real time.
   - Users can input customer data to see churn risk instantly.
-- Created **Power BI dashboard** for visualizing customer patterns and high-risk segments.
 - Suggested actionable retention strategies:
   - Targeted offers for high-risk customers
   - Enhanced support for customers with recurring complaints
 
 **Files:**
 - `Streamlit_App/pages/Homepage.py`
-- `PowerBI/Customer churn.pbix`
-- `Reports/` folder for supporting visuals
 
 ---
 
