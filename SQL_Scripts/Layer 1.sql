@@ -1,7 +1,6 @@
 
--- PHASE 1: DATA EXTRACTION 
+-- Data Insertion from CSV files
 -----------------------------------------------------------------------
-
 -- 1. Dim_Customer.csv
 BULK INSERT Staging.Stage_Customer_Data 
 FROM 'C:\Users\doaaa\Downloads\DEPI Project\Dim_Customer.csv'
