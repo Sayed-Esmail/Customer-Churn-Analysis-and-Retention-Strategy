@@ -1,3 +1,5 @@
+-- PHASE 2: Staging LAYER 
+----------------------------------
 CREATE SCHEMA Staging;
 DROP SCHEMA IF EXISTS Staging;
 
