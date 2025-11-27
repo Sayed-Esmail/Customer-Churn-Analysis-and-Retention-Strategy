@@ -61,64 +61,6 @@ This project was completed end-to-end, covering **data exploration, modeling, de
 
 ---
 
-## 📁 Repository Structure
-
-CERA/
-├─ Data/
-│  ├─ Processed/
-│  │   └─ churn_ml_dataset.csv
-│  └─ Raw/
-│      ├─ Dim_Customer.csv
-│      ├─ Dim_Date.csv
-│      ├─ Dim_PaymentMethod.csv
-│      ├─ Dim_Plan.csv
-│      └─ Fact_Customer_Activity.csv
-│
-├─ Database/
-│  ├─ CustomerChurn.db
-│  └─ Customer_Churn.bak
-│
-├─ Models/
-│  ├─ churn_prediction_model.pkl
-│  ├─ feature_columns.pkl
-│  └─ scaler.pkl
-│
-├─ Notebooks/
-│  ├─ App.py
-│  ├─ Data_Extraction.ipynb
-│  ├─ EDA_Analysis.ipynb
-│  ├─ Model_Evaluation.ipynb
-│  └─ Model_Training.ipynb
-│
-├─ PowerBI/
-│  └─ Customer churn.pbix
-│
-├─ Reports/
-│  ├─ confusion_matrix.png
-│  ├─ correlation_heatmap.png
-│  ├─ feature_distributions.png
-│  ├─ feature_importance.png
-│  └─ roc_curve.png
-│
-├─ SQL_Scripts/
-│  ├─ Basic upload.sql
-│  ├─ Data Info.sql
-│  ├─ Layer 1.sql
-│  ├─ Layer 2.sql
-│  ├─ Layer 3.sql
-│  └─ MYVERSION1.sql
-│
-├─ Streamlit_App/
-│  ├─ pages/
-│  │   └─ Homepage.py
-│  └─ logs/
-│      └─ app.log
-│
-├─ .gitignore
-└─ requirements.txt
-
-
-
 ## 🚀 How to Run the Project
 
 ### 1. Environment Setup
@@ -137,11 +79,3 @@ streamlit run Streamlit_App/pages/Homepage.py
 
 3. Explore Power BI Dashboard
 Open PowerBI/Customer churn.pbix in Power BI Desktop for interactive visualizations.
-
-
-
-
-
-
-
-
