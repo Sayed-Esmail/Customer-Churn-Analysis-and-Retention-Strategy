@@ -79,7 +79,7 @@ cd Customer-Churn-Analysis-and-Retention-Strategy
 pip install -r requirements.txt
 
 2. Run Streamlit App
-streamlit run Streamlit_App/pages/Homepage.py
+streamlit run Streamlit_App/Homepage.py
 
 3. Explore Power BI Dashboard
 Open PowerBI/Customer churn.pbix in Power BI Desktop for interactive visualizations.
