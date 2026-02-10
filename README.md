@@ -2,13 +2,13 @@
 
 **Project:** Customer Churn Analysis and Retention Strategy  
 **Initiative:** Digital Egypt Pioneers Initiative (DEPI)
-**Team:**
-1- Sayed Esmail
-2- Moaz tamer
-3- Menna Ayman
-4- Mohamed Hazem 
-5- Doaa Ayman
-6- Mariam waled
+**Team:**  
+1- Sayed Esmail  
+2- Moaz tamer  
+3- Menna Ayman  
+4- Mohamed Hazem  
+5- Doaa Ayman  
+6- Mariam waled  
 
 
 ---
