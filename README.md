@@ -1,7 +1,7 @@
 # CERA: Customer Exit Risk Analyzer
 
 **Project:** Customer Churn Analysis and Retention Strategy  
-**Initiative:** Digital Egypt Pioneers Initiative (DEPI)
+**Initiative:** Digital Egypt Pioneers Initiative (DEPI)  
 **Team:**  
 1- Sayed Esmail  
 2- Moaz tamer  
